@@ -1,0 +1,60 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.contenedor {
+    text-align: center;
+    background-color: hsl(0, 0%, 8%);  
+    display: flex;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;  
+}
+
+#contenedor-info {    
+        background-color: hsl(0, 0%, 12%);
+        width: 375px;display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+       /* background-color: red;*/
+        }
+
+.contenedor-boton {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: flex-end;
+    justify-content: center;
+    align-items: center; 
+    width: 80%;
+   /* background-color: aqua; */
+}
+
+@font-face {
+    font-family: 'fuente';
+    src: url('/assets/fonts/static/Inter-SemiBold.ttf') format('truetype');
+  }
+
+.btn{
+    background-color: hsl(0, 0%, 20%); 
+    color: hsl(0, 0%, 100%);
+   /*background-color: yellow;*/
+    width: 100%;
+    font-family: 'fuente';
+    font-size: 14px;
+    border-radius: 10px;
+    margin:5px;
+    border: none;
+    padding: 10px;   
+}
+
+.btn:hover {
+    background-color:hsl(75, 94%, 57%);/*color al sobre poner el mouse*/
+  }
+
+
+
