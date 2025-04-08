@@ -1,15 +1,25 @@
+@font-face {
+    font-family: 'fuente';
+    src: url('/assets/fonts/static/Inter-SemiBold.ttf') format('truetype');
+  }
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
 .contenedor {
     text-align: center;
     background-color: hsl(0, 0%, 8%);  
+    font-family: 'fuente';
+
     display: flex;
         flex-wrap: nowrap;
         align-content: center;
         justify-content: center;
         align-items: center;
-        flex-direction: column;  
+        flex-direction: column;
+       
+        
+        
 }
 
 #contenedor-info {    
@@ -20,6 +30,14 @@
         align-content: center;
         justify-content: center;
         align-items: center;
+        border-radius: 2%;
+       padding: 20px;
+       margin: 5%;
+       
+   
+
+  
+        
        /* background-color: red;*/
         }
 
@@ -31,13 +49,12 @@
     justify-content: center;
     align-items: center; 
     width: 80%;
+    font-family: 'fuente';
+
    /* background-color: aqua; */
 }
 
-@font-face {
-    font-family: 'fuente';
-    src: url('/assets/fonts/static/Inter-SemiBold.ttf') format('truetype');
-  }
+
 
 .btn{
     background-color: hsl(0, 0%, 20%); 
@@ -52,9 +69,34 @@
     padding: 10px;   
 }
 
+
 .btn:hover {
     background-color:hsl(75, 94%, 57%);/*color al sobre poner el mouse*/
   }
+  
 
+.img {
+    border-radius: 50%;
+    width: 90px;
+}
 
+.titulo{
+   color:  hsl(0, 0%, 100%);
+   font-family: 'fuente';
 
+  
+  
+}
+.suptitulo {
+    color:hsl(75, 94%, 57%); 
+    font-size: 20px;
+    margin-top: -10px;
+    font-family: 'fuente';
+
+   
+}
+.parrafo{
+    color:  hsl(0, 0%, 100%);7
+  
+      
+}
